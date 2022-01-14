@@ -1,0 +1,24 @@
+{
+  "collectorData": [
+    {
+      "name": "test-collector",
+      "budget": 300
+    },
+    {
+      "name": "test-collector2",
+      "budget": 150
+    },
+    {
+      "name": "test-collector3",
+      "budget": 200
+    },
+    {
+      "name": "test-collector4",
+      "budget": 100
+    },
+    {
+      "name": "test-collector5",
+      "budget": 400
+    }
+  ]
+}

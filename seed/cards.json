@@ -1,0 +1,59 @@
+{
+  "cardData": [
+    {
+      "name": "test-card",
+      "imgURL": "www.testimg.com",
+      "price": 50
+    },
+    {
+      "name": "test-card2",
+      "imgURL": "www.testimg.com",
+      "price": 50
+    },
+    {
+      "name": "test-card3",
+      "imgURL": "www.testimg.com",
+      "price": 50
+    },
+    {
+      "name": "test-card4",
+      "imgURL": "www.testimg.com",
+      "price": 29
+    },
+    {
+      "name": "test-card5",
+      "imgURL": "www.testimg.com",
+      "price": 33
+    },
+    {
+      "name": "test-card6",
+      "imgURL": "www.testimg.com",
+      "price": 45
+    },
+    {
+      "name": "test-card7",
+      "imgURL": "www.testimg.com",
+      "price": 56
+    },
+    {
+      "name": "test-card8",
+      "imgURL": "www.testimg.com",
+      "price": 37
+    },
+    {
+      "name": "test-card9",
+      "imgURL": "www.testimg.com",
+      "price": 27
+    },
+    {
+      "name": "test-card10",
+      "imgURL": "www.testimg.com",
+      "price": 43
+    },
+    {
+      "name": "test-card11",
+      "imgURL": "www.testimg.com",
+      "price": 15
+    }
+  ]
+}
