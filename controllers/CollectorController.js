@@ -90,11 +90,30 @@ const generateFive = async (req, res) => {
   res.send(collectorCards)
 }
 
+const tradeCard = async (req, res) => {
+  const collector = await Collector.findByPk(req.params.collector1)
+  const collector2 = await Collector.findByPk(req.params.collector2)
+  const card1 = await Card.findByPk(req.params.card1)
+  const card2 = await Card.findByPk(req.params.card2)
+
+  if (
+    collector.id === card1.CollectorId &&
+    collector2.id === card2.CollectorId
+  ) {
+    await collector.addCard(card2)
+    await collector2.addCard(card1)
+    res.send('Successful')
+  } else {
+    res.send('Unsuccessful')
+  }
+}
+
 module.exports = {
   getCollectors,
   getCollector,
   addCollector,
   deleteCollector,
   buyCard,
-  generateFive
+  generateFive,
+  tradeCard
 }
